@@ -6,5 +6,6 @@ def sort_array_desc(r)
   r.sort!.reverse!
 end
 ###########################
-def sort_array_char_count(s)
-end 
+def sort_array_char_count(r)
+  r.sort! {|x, y| x <=> y}
+end
