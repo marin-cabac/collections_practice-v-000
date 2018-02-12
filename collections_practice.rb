@@ -12,4 +12,4 @@ end
 ###########################
 def swap_elements(r)
   r[1],r[2]=r[2],r[1]
-end 
+end
